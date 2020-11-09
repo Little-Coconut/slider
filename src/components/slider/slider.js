@@ -39,10 +39,10 @@ function Slider() {
                 }
             )}
             <button id="goLeft" onClick={goLeft}>
-            <img src="https://img.icons8.com/carbon-copy/100/000000/back.png"/> 
+            <img src="https://img.icons8.com/carbon-copy/100/000000/back.png" className="mediaArrow"/> 
                  </ button>
             <button id="goRight" onClick={goRight}>
-            <img src="https://img.icons8.com/carbon-copy/100/000000/chevron-right.png"/>
+            <img src="https://img.icons8.com/carbon-copy/100/000000/chevron-right.png" className="mediaArrow"/>
                  </button>
      </div>
     )
